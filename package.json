@@ -10,9 +10,7 @@
     "test": "jest",
     "lint": "sh ./scripts/lint.sh",
     "lint:fix": "sh ./scripts/lint-fix.sh",
-    "bump:patch": "npx react-native bump-version --type patch",
-    "bump:minor": "npx react-native bump-version --type minor",
-    "bump:major": "npx react-native bump-version --type major"
+    "bump": "sh ./scripts/bump-version.sh"
   },
   "dependencies": {
     "react": "17.0.2",
